@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "endian-code": "^1.0.5"
+    "endian-code": "^1.0.5",
+    "jest": "^29.4.2",
+    "nodemon": "^2.0.20"
   }
 }

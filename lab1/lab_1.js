@@ -39,6 +39,7 @@ let swapEndian = (number) => {
   //  console.log(`Number in binary: ${numBinary}`)
     let bytesArray = binaryToBytesArray(numBinary);
     let otherEndianArray = [];
+    //koo
     otherEndianArray = bytesArray.reverse()
     let parsedNumber = parseInt(otherEndianArray.join(''), 2);
     if(parsedNumber > MAX_SIGNED_INT){
@@ -55,22 +56,21 @@ function mainMy() {
         console.log('\nResults of my own methods work: ');
         let lowEndian = swapEndian(number);
         console.log('LE: ' + lowEndian);
+
         let bigEndian = swapEndian(lowEndian);
-        console.log('BE: ' + bigEndian)
+        console.log('BE: ' + bigEndian);
+
         lowEndian = swapEndian(bigEndian);
-        console.log('LE2: ' + lowEndian)
+        console.log('LE2: ' + lowEndian);
 
-        //built in
         console.log('\nResults of lib`s methods work: ');
-        let lowEndianAuto = endian.encode(parseInt(number), 4, false)
-        let lowEndianAutoNum = endian.decode(lowEndianAuto, 4, true)
-        console.log('LE: ' + lowEndianAutoNum)
+        let lowEndianAuto = endian.encode(parseInt(number), 4, false);
+        let lowEndianAutoNum = endian.decode(lowEndianAuto, 4, true);
+        console.log('LE: ' + lowEndianAutoNum);
 
-        let bigEndianAuto = endian.encode(lowEndianAutoNum, 4, true)
-        let bigEndianAutoNum = endian.decode(bigEndianAuto, 4, false)
-        console.log('BE: ' + bigEndianAutoNum)
-       /* let lowEndianAuto =  endian.decode(lowEndianAutoNum, 4, false).map(x => parseInt(x).toString(2))
-        console.log(parseInt(lowEndianAuto.join(''), 2))*/
+        let bigEndianAuto = endian.encode(lowEndianAutoNum, 4, true);
+        let bigEndianAutoNum = endian.decode(bigEndianAuto, 4, false);
+        console.log('BE: ' + bigEndianAutoNum);
     });
 }
 
