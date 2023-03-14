@@ -39,7 +39,6 @@ let swapEndian = (number) => {
   //  console.log(`Number in binary: ${numBinary}`)
     let bytesArray = binaryToBytesArray(numBinary);
     let otherEndianArray = [];
-    //koo
     otherEndianArray = bytesArray.reverse()
     let parsedNumber = parseInt(otherEndianArray.join(''), 2);
     if(parsedNumber > MAX_SIGNED_INT){

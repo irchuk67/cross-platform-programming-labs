@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start_lab1": "node lab1/lab_1.js"
+    "start_lab1": "nodemon lab1/lab_1.js",
+    "start_lab3": "nodemon lab3/lab3.js"
   },
   "keywords": [],
   "author": "",

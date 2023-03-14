@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9774a10e-9c8b-48fe-b9cc-077e34379c44" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lab3/binding.gyp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/calculate.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/lab3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/lab_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/lab_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Lb0MfMKDRHHXUVy0ZoeIlaDGsj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.15.1",
+    "javascript.nodejs.core.library.typings.version": "16.18.15",
+    "last_opened_file_path": "C:/Users/foxma/WebstormProjects/cpp_labs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/foxma/WebstormProjects/cpp_labs/node_modules/jest",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.start_lab3">
+    <configuration name="Lab1 test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/lab1.test.js" />
+      <test-names>
+        <test-name value="Lab1 test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Lab1 test.library methods swap endian tests.low endian to big endian" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/lab1.test.js" />
+      <test-names>
+        <test-name value="Lab1 test" />
+        <test-name value="library methods swap endian tests" />
+        <test-name value="low endian to big endian" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Lab1 test.swap endian test.low endian to big endian" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/lab1.test.js" />
+      <test-names>
+        <test-name value="Lab1 test" />
+        <test-name value="swap endian test" />
+        <test-name value="low endian to big endian" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="start_lab1" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start_lab1" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start_lab3" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start_lab3" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start_lab3" />
+        <item itemvalue="npm.start_lab1" />
+        <item itemvalue="Jest.Lab1 test" />
+        <item itemvalue="Jest.Lab1 test.library methods swap endian tests.low endian to big endian" />
+        <item itemvalue="Jest.Lab1 test.swap endian test.low endian to big endian" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9774a10e-9c8b-48fe-b9cc-077e34379c44" name="Changes" comment="" />
+      <created>1676124428453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676124428453</updated>
+      <workItem from="1676124430952" duration="16320000" />
+      <workItem from="1676197830492" duration="2712000" />
+      <workItem from="1676291037355" duration="74000" />
+      <workItem from="1676561368631" duration="1597000" />
+      <workItem from="1676563648997" duration="8090000" />
+      <workItem from="1678737615268" duration="5056000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
