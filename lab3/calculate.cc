@@ -77,7 +77,7 @@ namespace calculate {
     }
 
 
-   void Subtract(const FunctionCallbackInfo<Value>&args){
+  void Subtract(const FunctionCallbackInfo<Value>&args){
         Isolate* isolate = args.GetIsolate();
 
         if (args.Length() < 2) {
@@ -93,6 +93,26 @@ namespace calculate {
         }
 
         double value = args[0].As<Number>()->Value() - args[1].As<Number>()->Value();
+         Local<Number> num = Number::New(isolate, value);
+         args.GetReturnValue().Set(num);
+    }
+
+  void Divide(const FunctionCallbackInfo<Value>&args){
+        Isolate* isolate = args.GetIsolate();
+
+        if (args.Length() < 2) {
+           isolate->ThrowException(Exception::TypeError(
+               String::NewFromUtf8(isolate, "Not enough arguments").ToLocalChecked()));
+           return;
+        }
+
+        if(!args[0]->IsNumber() && !args[1]->IsNumber()){
+           isolate->ThrowException(Exception::TypeError(
+                String::NewFromUtf8(isolate, "Incorrect arguments").ToLocalChecked()));
+           return;
+        }
+
+        double value = args[0].As<Number>()->Value() / args[1].As<Number>()->Value();
          Local<Number> num = Number::New(isolate, value);
          args.GetReturnValue().Set(num);
     }
@@ -122,6 +142,7 @@ namespace calculate {
         NODE_SET_METHOD(exports, "add", Add);
         NODE_SET_METHOD(exports, "multiply", Multiply);
         NODE_SET_METHOD(exports, "subtract", Subtract);
+        NODE_SET_METHOD(exports, "divide", Subtract);
 
         NODE_SET_METHOD(exports, "greeting", PrintGreeting);
 
