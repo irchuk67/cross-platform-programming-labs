@@ -144,7 +144,7 @@
       <workItem from="1678737615268" duration="7937000" />
       <workItem from="1678898791600" duration="670000" />
       <workItem from="1679163556020" duration="7588000" />
-      <workItem from="1679325841260" duration="3778000" />
+      <workItem from="1679325841260" duration="4148000" />
     </task>
     <servers />
   </component>
@@ -161,5 +161,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lab4/logic.js</url>
+          <line>95</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
