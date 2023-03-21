@@ -1,0 +1,7 @@
+Create a, 5
+Create b, 8
+Create i, -1
+Add a, b
+Increment i
+Jump 4, i, 7
+Print a
