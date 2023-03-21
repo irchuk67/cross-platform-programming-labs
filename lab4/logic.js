@@ -94,7 +94,7 @@ let filePath2 = path.join(path.dirname(__filename), 'for_test_VM');
 let file = fs.readFileSync(filePath, 'utf-8');
 let fileContent = file.split("\n").flatMap(str => str.split('\r')).filter(str => str !== "");
 for (let i = 0; i < fileContent.length; i++) {
-    let commandClean = fileContent[i].replaceAll(",", "");
+    let commandClean = fileContent[i].replace(/,/g, "");
     let commandContent = commandClean.split(" ");
     switch (commandContent[0]) {
         case 'Create':
