@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9774a10e-9c8b-48fe-b9cc-077e34379c44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/for_test_VM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/logic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_virtual_machine" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/lab4.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_test_VM" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/for_test_VM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/logic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_virtual_machine" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/test_virtual_machine" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Jest.Lab4 tests">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\foxma\WebstormProjects\cpp_labs\lab4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start_lab4">
     <configuration name="Lab4 tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -117,9 +120,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start_lab4" />
         <item itemvalue="Jest.Lab4 tests" />
         <item itemvalue="Jest.Lab4 tests.add variables.variable and number" />
-        <item itemvalue="npm.start_lab4" />
         <item itemvalue="npm.start_lab3" />
         <item itemvalue="npm.start_lab1" />
       </list>
@@ -141,7 +144,7 @@
       <workItem from="1678737615268" duration="7937000" />
       <workItem from="1678898791600" duration="670000" />
       <workItem from="1679163556020" duration="7588000" />
-      <workItem from="1679325841260" duration="2448000" />
+      <workItem from="1679325841260" duration="3778000" />
     </task>
     <servers />
   </component>

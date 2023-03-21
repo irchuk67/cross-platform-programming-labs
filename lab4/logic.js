@@ -89,10 +89,10 @@ function handleJump(commandContent){
 
 }
 
-let filePath = "C:/Users/foxma/WebstormProjects/cpp_labs/test_virtual_machine";
-let filePath2 = "C:/Users/foxma/WebstormProjects/cpp_labs/for_test_VM";
+let filePath = path.join(path.dirname(__filename), 'test_virtual_machine');
+let filePath2 = path.join(path.dirname(__filename), 'for_test_VM');
 let file = fs.readFileSync(filePath, 'utf-8');
-let fileContent = file.split("\r\n");
+let fileContent = file.split("\n").flatMap(str => str.split('\r')).filter(str => str !== "");
 for (let i = 0; i < fileContent.length; i++) {
     let commandClean = fileContent[i].replaceAll(",", "");
     let commandContent = commandClean.split(" ");
